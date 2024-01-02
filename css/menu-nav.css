@@ -295,9 +295,9 @@ img {
 	background-color: transparent;
 	cursor: pointer;
 	display: none;
-	top: 6px;
+	top: 5px;
 	position: absolute;
-	right: 15px;
+	right: 0px;
 }
 .classy-navbar-toggler .navbarToggler {
 	display: inline-block;
@@ -516,9 +516,10 @@ img {
 	background-color: #ffffff;
 	position: fixed;
 	top: 0;
-	left: -310px;
+	left: -320px;
 	z-index: 1000;
-	width: 300px;
+	width: 100%;
+	max-width: 320px;
 	height: 100%;
 	-webkit-transition-duration: 500ms;
 	transition-duration: 500ms;

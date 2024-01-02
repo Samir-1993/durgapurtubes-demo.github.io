@@ -1095,11 +1095,11 @@ a:hover {
 }
 
 .back-to-top i {
-    font-size: 24px;
+    font-size: 26px;
     position: absolute;
     top: 7px;
-    left: 9px;
-    right: 9px;
+    left: 10px;
+    right: 10px;
 }
 
 .back-to-top:hover i {
@@ -6327,6 +6327,9 @@ video {
 } */
 
 
+.video_gallerybox{
+
+}
 
 /*  Video Style  */
 

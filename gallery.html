@@ -121,7 +121,7 @@
                                                     </form>
                                             </div>
                                             <div class="get-a-quote-mob-button">
-                                                <a href="get-quote.html" class="btn1">
+                                                <a href="mailto:marketing@durgapurtubes.com" class="btn1">
                                                     Get A Quote
                                                 </a>
                                             </div>
@@ -177,7 +177,7 @@
 
                     <div class="header-rightconbox">
                         <div class="get-in-touch">
-                            <a href="get-quote.html" class="btn1">
+                            <a href="mailto:marketing@durgapurtubes.com" class="btn1">
                                 Get A Quote
                             </a>
                         </div>
@@ -358,13 +358,20 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mt-30">
-                    <div class="gallery-box">
-                        <div class="gallery-imgbox">
+                    <div class="video_gallerybox">
+                        <!-- <div class="gallery-imgbox">
                             <div class="gallery-iconbox">
                                 <a href="images/gallery-12.webp" class="fa fa-search gallery-icon-1 bimg" aria-hidden="true"></a>
                             </div>
                             <img src="images/gallery-12.webp" alt="Gallery">
                             <div class="gallery-hover-bg"></div>
+                        </div> -->
+                        <div class="videobox-con2">
+                            <div class="video-box set-bg" data-setbg="images/gallery-12.webp" style="background-image:url(images/gallery-12.webp);">
+                                <a href="videos/Movie001-1.mp4" class="video-popup">
+                                    <i class="fa fa-play" aria-hidden="true"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -584,9 +591,9 @@
 
     <!--Whatsapp button start-->
     <div class="whatsapp-container">
-        <div class="phone-call"><a target="_blank" href="https://wa.me/<%= $g->{whatsapp_no} %>"><img
-                    src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png"
-                    width="50" alt="Order On Whatsapp" title="Order On Whatsapp"></a></div>
+        <div class="phone-call">
+            <a target="_blank" href="https://wa.me/9233308151"><img src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png" width="50" alt="Chat on WhatsApp" title="Chat on WhatsApp"></a>
+        </div>
     </div>
     <!--Whatsapp button end-->
 
@@ -747,9 +754,8 @@
     <!--Video Popup-->
     <script>
         $('.video-popup').magnificPopup({
-            type: 'a'
+            type: 'iframe'
         });
-
     </script>
 
 
