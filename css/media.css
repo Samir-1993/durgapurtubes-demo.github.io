@@ -2900,10 +2900,41 @@
     line-height: 20px;
   }
 
-
-
-
-
+  .qualitypage_section1 p{
+    text-align: justify;
+  }
+.clientspage_section1 p{
+    text-align: justify;
+}
+.clientspage_section1 p{
+    text-align: justify;
+}
+.faq_box .accordion-body {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+}
+.faq_box .accordion-body {
+    padding: 1rem 0.75rem;
+}
+.float_form{
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: justify;
+}
+.float_form p{
+    text-align: justify;
+}
+.page_title{
+    padding-left: 0px;
+    text-align: center;
+}
+.lcformatepage_section1 p{
+    text-align: justify;
+}
+.left-contentbox-details, p{
+    text-align: justify;
+}
 
 }
 

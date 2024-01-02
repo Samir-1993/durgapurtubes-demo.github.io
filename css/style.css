@@ -9017,8 +9017,13 @@ td {
 }
 
 
-
-
+.float_form{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.page_title{
+    padding-left: 50px;
+}
 
 
 
